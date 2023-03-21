@@ -1,0 +1,36 @@
+.c-title
+{
+  padding-left: 4px;
+  padding-top: 2px;
+}
+
+.c-title > h4
+{
+  color: #2D2D2D;
+  font-family: 'Rota-Bolder';
+  font-weight: bold;
+}
+
+.left-content
+{
+  color: #5448C8;
+  font-family: 'Rota-Bolder', 'sans-serif';
+  font-size: 70px;
+  letter-spacing: 2px;
+  word-spacing: 0px;
+  font-style: bolder;
+  font-weight: bolder;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vertical-line
+{
+  border-left: 1px solid #999999bb; /* Change black to any color of your choice */
+  height: 60px; /* Change height to any height you want */
+}

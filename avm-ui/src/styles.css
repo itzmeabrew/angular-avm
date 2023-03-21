@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+/* @font-face {
+  font-family: 'Rota';
+  src:
+    url('../src/assets/font/Rota/Rota-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rota';
+  src:
+    url('../src/assets/font/Rota/Rota-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rota';
+  src:
+    url('../src/assets/font/Rota/Rota-Medium.otf') format('opentype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rota';
+  src:
+    url('../src/assets/font/Rota/Rota-Black.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Rota-Regular';
+  src: url('../src/assets/font/Rota/Rota-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rota-Bold';
+  src: url('../src/assets/font/Rota/Rota-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rota-Medium';
+  src: url('../src/assets/font/Rota/Rota-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rota-Bolder';
+  src: url('../src/assets/font/Rota/Rota-Bolder.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+body,
+html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+}
+
+.custom-card {
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+  border: none;
+  border-radius: 18px;
+  width: 280px;
+  height: 195px;
+  background-color: #ebebeb;
+}
