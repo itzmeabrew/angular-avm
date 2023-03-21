@@ -30,5 +30,5 @@ Angular development server will start at the default port of 4200
 ## Notes
 
 - Adapative card UI
-- No need to run the code as its hosted and is available on 
+- No need to run the code as its hosted and is available on https://avmui-2c448.web.app/
 - The screen resolution during development is 1920x1080 pixels and view port    resolution is 1920x922 pixels
