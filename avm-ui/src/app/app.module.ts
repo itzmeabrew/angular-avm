@@ -9,6 +9,8 @@ import { TmpCardComponent } from './component/info-cards/tmp-card/tmp-card.compo
 import { AudCardComponent } from './component/info-cards/aud-card/aud-card.component';
 import { DisplayCardComponent } from './component/info-cards/display-card/display-card.component';
 import { LightCardComponent } from './component/info-cards/light-card/light-card.component';
+import { CommonModule } from '@angular/common';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,8 +24,10 @@ import { LightCardComponent } from './component/info-cards/light-card/light-card
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -41,22 +41,22 @@
 
       <div class="col-6 d-flex">
         <div class="info-left">
-          <span class="card-text">72</span>
+          <span class="card-text">{{this.aqCard?.value}}</span>
         </div>
       </div>
 
       <div class="col-6 d-flex flex-column flex-nowrap" style="padding-left:0px">
 
         <div class="tempx d-flex justify-content-start flex-row align-items-center">
-          <i class="fa-solid fa-arrow-up-long me-2"  style="color:#6DD0A5" ></i>
-          <span>93</span>
+          <i class="fa-solid fa-arrow-up-long me-2" style="color:#6DD0A5"></i>
+          <span>{{this.aqCard?.hi}}</span>
         </div>
 
         <hr style="margin: 1px 0px 1px 0px;">
 
         <div class="tempx d-flex justify-content-start flex-row align-items-center mt-2">
           <i class="fa-solid fa-arrow-down-long me-2" style="color:#fcbf43"></i>
-          <span>61</span>
+          <span>{{this.aqCard?.lo}}</span>
         </div>
 
       </div>
